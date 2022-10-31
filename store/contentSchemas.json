@@ -1,0 +1,22 @@
+{
+  "definitions": {
+    "MenuItem": {
+      "type": "object",
+      "properties": {
+        "__editorItemTitle": {
+          "title": "admin/editor.menu.item.editorItemTitle.title",
+          "description": "admin/editor.menu.item.editorItemTitle.description",
+          "type": "string"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "href": {
+          "title": "href",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

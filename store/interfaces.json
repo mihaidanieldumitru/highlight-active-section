@@ -1,0 +1,15 @@
+{
+  "highlight-active-section": {
+    "component": "Highlight",
+    "content": {
+      "properties": {
+        "menuitems": {
+          "type": "array",
+          "items": {
+            "$ref": "app:iviteb.highlight-active-section#/definitions/MenuItem"
+          }
+        }
+      }
+    }
+  }
+}
