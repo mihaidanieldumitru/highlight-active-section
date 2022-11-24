@@ -15,6 +15,14 @@
         "href": {
           "title": "href",
           "type": "string"
+        },
+        "icon": {
+          "title": "Icon",
+          "$ref": "app:vtex.native-types#/definitions/url",
+          "default": "",
+          "widget": {
+            "ui:widget": "image-uploader"
+          }
         }
       }
     }

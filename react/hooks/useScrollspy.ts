@@ -3,7 +3,7 @@ import { useState, useLayoutEffect } from 'react'
 import { clamp, isBetween } from '../helpers/helpers'
 
 export const useScrollspy = (ids: string[], offset = 0) => {
-  const [activeId, setActiveId] = useState('')
+  const [activeId, setActiveId] = useState(ids[0])
 
   useLayoutEffect(() => {
     const listener = () => {

@@ -1,4 +1,4 @@
 {
-  "admin/editor.menu.item.editorItemTitle.title": "title",
-  "admin/editor.menu.item.editorItemTitle.description": "description"
+  "admin/editor.menu.item.editorItemTitle.title": "Menu Item",
+  "admin/editor.menu.item.editorItemTitle.description": "Edit Menu Item"
 }
